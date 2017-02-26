@@ -1,125 +1,291 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<!--Import Google Icon Font-->
-		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<!--Import materialize.css-->
-		<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
-		<!--Let browser know website is optimized for mobile-->
-		<link type="text/css" rel="stylesheet" href="style/app.css">
-		<title>The Black Cat</title>
-	</head>
-	<body>
-		<!--NAVBAR-->
-		<div>
-			<nav>
-				<div class="nav-wrapper container">
-				<a href="#!" class="brand-logo"><img src="public/black_cat.png"></a>
-				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-				<ul class="right hide-on-med-and-down">
-					<li><a class="black-text" href="templates/sobre.html">Sobre</a></li>
-					<li><a class="black-text" href="templates/contato.html">Contato</a></li>
-				</ul>
-				<ul class="side-nav" id="mobile-demo">
-					<li><a href="templates/sobre.html">Sobre</a></li>
-					<li><a href="templates/contato.html">Contato</a></li>
-				</ul>
-				</div>
-			</nav>
-		</div>
-		<!--CONTENT-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!--Import Google Icon Font-->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+	<!--Let browser know website is optimized for mobile-->
+	<link type="text/css" rel="stylesheet" href="caroline.css">
+	<title>Rosa Blush</title>
+</head>
+<body>
+	<!--NAVBAR-->
+	<header>
+		<!--<div class="navbar-fixed">-->
+			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			<ul class="side-nav fixed hide-on-med-and-down">
+				<li class="logo">
+					<a href="#!" id="logo-container" class="brand-logo">
+						<!--<img src="imgs/black_cat.png">-->
+						<span style="font-weight:lighter; font-size: 26pt">ROSA</span>
+						<span style="color:hotpink !important; font-size: 26pt;">BLUSH</span>
+					</a>
+				</li>
+				<li><a href="#BookUm">Book um Rosa</a></li>
+				<li><a href="#BookDois">Book Dois Rosa</a></li>
+				<li><a href="#BookBia">Book Bia Rosa</a></li>
+				<li><a href="#SobreMim">Sobre mim</a></li>				
+				<li><a href="#Contato">Contato</a></li>
+			</ul>
+			<ul class="side-nav" id="mobile-demo">
+				<li class="logo">
+					<a href="#!" id="logo-container" class="brand-logo">
+						<img src="imgs/black_cat.png">
+					</a>
+				</li>
+				<li><a href="#BookUm">Book um</a></li>
+				<li><a href="#BookBia">Book Bia</a></li>
+				<li><a href="#BookLooks">Book Looks</a></li>
+				<li><a href="#SobreMim">Sobre mim</a></li>				
+				<li><a href="#Contato">Contato</a></li>
+			</ul>
+		<!--</div>-->
+	</header>
+	<!--CONTENT-->
+	<main>
 		<div class="section no-pad-bot" id="index-banner">
-			<div class="container">
-				<br><br>
-				<h1 class="header center black-text">The black cat</h1>
-				<div class="row center">
-					<h5 class="header col s12 light orange-text">A modern responsive front-end framework based on Material Design</h5>
+			<div class="container book">
+				<div id="BookUm" class="subtitle section scrollspy">
+					<h1>Book Um Rosa</h1>
+					<div class="grid row">
+						<div class="grid-item grid-h2 book-img">
+							<img class="img-auto" src="imgs/Books/Um/make01.jpg"/>
+						</div>
+						<div class="grid-item grid-w2 book-img">
+							<img class="img-auto" src="imgs/Books/Um/make02.jpg"/>
+						</div>
+						<div class="grid-item grid-w2 book-img">
+							<img class="img-auto" src="imgs/Books/Um/make03.jpg"/>
+						</div>
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Um/make04.jpg"/>
+						</div>
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Um/make05.jpg"/>
+						</div>
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Um/make06.jpg"/>
+						</div>
+												<div class="grid-item grid-h2 book-img">
+							<img class="img-auto" src="imgs/Books/Um/make01.jpg"/>
+						</div>
+						<div class="grid-item grid-w2 book-img">
+							<img class="img-auto" src="imgs/Books/Um/make02.jpg"/>
+						</div>
+						<div class="grid-item grid-w2 book-img">
+							<img class="img-auto" src="imgs/Books/Um/make03.jpg"/>
+						</div>
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Um/make04.jpg"/>
+						</div>
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Um/make05.jpg"/>
+						</div>
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Um/make06.jpg"/>
+						</div>
+					</div>
 				</div>
-				<!--<div class="row center">
-					<a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light blue darken-4">Get Started</a>
-				</div>-->
-				<!--<br><br>-->
-			</div>
-			</div>
-			<div class="section about">
-				<div class="container">
+				<div id="BookDois" class="subtitle section scrollspy">
+					<h1>Book Dois Rosa</h1>
+					<div class="grid row"> 
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Dois/make07.jpg"/>
+						</div>
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Dois/make08.jpg"/>
+						</div>
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Dois/make09.jpg"/>
+						</div>
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Dois/make10.jpg"/>
+						</div>
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Dois/make11.jpg"/>
+						</div>
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Dois/make12.jpg"/>
+						</div>
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Dois/make07.jpg"/>
+						</div>
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Dois/make08.jpg"/>
+						</div>
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Dois/make09.jpg"/>
+						</div>
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Dois/make10.jpg"/>
+						</div>
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Dois/make11.jpg"/>
+						</div>
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Dois/make12.jpg"/>
+						</div><div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Dois/make07.jpg"/>
+						</div>
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Dois/make08.jpg"/>
+						</div>
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Dois/make09.jpg"/>
+						</div>
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Dois/make10.jpg"/>
+						</div>
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Dois/make11.jpg"/>
+						</div>
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Dois/make12.jpg"/>
+						</div>
+					</div>
+				</div>
+				<div id="BookBia" class="subtitle section scrollspy">
+					<h1>Book Bia Rosa</h1>
+					<div class="grid row"> 
+						<div class="grid-item grid-h2 book-img">
+							<img class="img-auto" src="imgs/Books/Um/make01.jpg"/>
+						</div>
+						<div class="grid-item grid-w2 book-img">
+							<img class="img-auto" src="imgs/Books/Um/make02.jpg"/>
+						</div>
+						<div class="grid-item grid-w2 book-img">
+							<img class="img-auto" src="imgs/Books/Um/make03.jpg"/>
+						</div>
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Um/make04.jpg"/>
+						</div>
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Um/make05.jpg"/>
+						</div>
+						<div class="grid-item book-img">
+							<img class="img-auto" src="imgs/Books/Um/make06.jpg"/>
+						</div>
+					</div>
+				</div>
+				<div id="SobreMim" class="subtitle section scrollspy">
+					<h1>Sobre mim</h1>
+					<div class="center-align">
+						<h3>
+							Lorem Ipsum
+						</h3>
+						<h6>
+							"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+						</h6>
+					</div>
+					<p>
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+						 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+						 dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+						 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+						 anim id est laborum."
+					</p>
 					<div class="row">
-			<div class="col s12 m4">
-			<div class="icon-block">
-				<h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-				<h5 class="center">Speeds up development</h5>
-
-				<p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-			</div>
-			</div>
-
-			<div class="col s12 m4">
-			<div class="icon-block">
-				<h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-				<h5 class="center">User Experience Focused</h5>
-
-				<p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-			</div>
-			</div>
-
-			<div class="col s12 m4">
-			<div class="icon-block">
-				<h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-				<h5 class="center">Easy to work with</h5>
-
-				<p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-			</div>
-			</div>
-		</div>
-			</div>
-		</div>
-		<div class="section photos">
-			<div class="container">
-			
-			</div>
-		</div>
-		<footer class="page-footer red lighten-2">
-			<div class="container">
-			<div class="row">
-				<div class="col l6 s12">
-				<h5 class="white-text">Company Bio</h5>
-				<p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
+						<div class="col s6 l3">
+							<img class="sobre-img" src="imgs/Books/Um/make04.jpg">
+						</div>
+						<div class="col s6 l3">
+							<img class="sobre-img" src="imgs/Books/Um/make04.jpg">
+						</div>
+						<div class="col s6 l3">
+							<img class="sobre-img" src="imgs/Books/Um/make04.jpg">
+						</div>
+						<div class="col s6 l3">
+							<img class="sobre-img" src="imgs/Books/Um/make04.jpg">
+						</div>
+						<div class="col s6 l3">
+							<img class="sobre-img" src="imgs/Books/Um/make04.jpg">
+						</div>
+						<div class="col s6 l3">
+							<img class="sobre-img" src="imgs/Books/Um/make04.jpg">
+						</div>
+						<div class="col s6 l3">
+							<img class="sobre-img" src="imgs/Books/Um/make04.jpg">
+						</div>
+						<div class="col s6 l3">
+							<img class="sobre-img" src="imgs/Books/Um/make04.jpg">
+						</div>
+					</div>
+					<div id="instafeed"></div>
 				</div>
-				<div class="col l3 s12">
-				<h5 class="white-text">Settings</h5>
-				<ul>
-					<li><a class="white-text" href="#!">Link 3</a></li>
-					<li><a class="white-text" href="#!">Link 4</a></li>
-				</ul>
-				</div>
-				<div class="col l3 s12">
-				<h5 class="white-text">Connect</h5>
-				<ul>
-					<li><a class="white-text" href="#!">Link 1</a></li>
-					<li><a class="white-text" href="#!">Link 2</a></li>
-					<li><a class="white-text" href="#!">Link 3</a></li>
-					<li><a class="white-text" href="#!">Link 4</a></li>
-				</ul>
+				<div id="Contato" class="subtitle section scrollspy">
+					<h1>Contato</h1>
+					<div class="row">
+						<form class="col offset-s2 s8">
+							<div class="row">					
+								<div class="input-field col s12">
+									<input id="nome" type="text" class="validate">
+									<label for="nome">Nome</label>
+								</div>
+								<div class="input-field col s12">
+									<input id="telefone" type="text" class="validate">
+									<label for="email">E-mail</label>
+								</div>
+								<div class="input-field col s12">
+									<textarea id="mensagem" class="materialize-textarea"></textarea>
+									<label for="mensagem">Mensagem</label>
+								</div>
+								<a id="btn-enviar" class="waves-effect waves-light btn">Enviar</a>							
+							</div>
+						</form>
+					</div>
 				</div>
 			</div>
+		</div>
+	</main>
+	<footer class="page-footer red lighten-3">
+		<div class="container">
+		<div class="row">
+			<div class="col l8 s12">
+				<h5 class="white-text">Ana Caroline</h5>
+				<div class="footer-info">
+					<p class="grey-text text-lighten-4">
+						email@rosablush.com
+					</p>
+					<p class="grey-text text-lighten-4">
+						61 | 00000-0000
+					</p>
+					<p class="grey-text text-lighten-4">
+						Águas claras, quadra 205
+					</p>
+				</div>
 			</div>
-			<div class="footer-copyright">
-			<div class="container">
-			Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+			<div class="col l4 s12 social-icon">
+				<a href="https://www.facebook.com/carol.plima.9">
+					<img src="imgs/icons/F_icon.png">
+				</a>
+				<a href="https://www.instagram.com/ana_carol_plima">
+					<img src="imgs/icons/I_icon.png">
+				</a>
+				<a href="https://www.instagram.com/ana_carol_plima">
+					<img href="https://www.instagram.com/ana_carol_plima" src="imgs/icons/T_icon.png">
+				</a>
+				<a href="https://www.instagram.com/ana_carol_plima">							
+					<img href="https://www.instagram.com/ana_carol_plima" src="imgs/icons/Y_icon.png">						
+				</a>
 			</div>
-			</div>
-		</footer>
+		</div>
+		</div>
+		<div class="footer-copyright">
+		<div class="container">
+			Made by <a class="orange-text text-lighten-4" href="http://materializecss.com">Materialize</a>
+		</div>
+		</div>
+	</footer>
 
-		<!--SCRIPTS-->
-		<!--Import jQuery before materialize.js-->
-		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-		<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
-		<!--<link rel="import" href="templates/navigation.html">-->
-		<script type="text/javascript" src="controller/nav.js"></script>		
-	</body>
-
-</html>
+	<!--SCRIPTS-->
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+	<!--<link rel="import" href="templates/navigation.html">-->
+	<script type="text/javascript" src="caroline.js"></script>
+	<script type="text/javascript" src="masonry.pkgd.min.js"></script>
+	<script type="text/javascript" src="instafeed.min.js"></script>		
+</body>
